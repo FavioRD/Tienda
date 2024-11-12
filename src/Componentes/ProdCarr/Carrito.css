@@ -1,0 +1,106 @@
+.carrito-detalle {
+    padding: 20px;
+  }
+  
+  .carrito-contenido {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .carrito-productos {
+    flex: 2;
+  }
+  
+  .carrito-item {
+    display: flex;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .carrito-item-img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  
+  .carrito-item-info {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .carrito-item-vendedor {
+    font-size: 0.9em;
+    color: gray;
+  }
+  
+  .carrito-item-eliminar {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .carrito-resumen {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .carrito-resumen-continuar {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .carrito-hover-list {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 100;
+  }
+  
+  .carrito-hover-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .carrito-hover-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .carrito-hover-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .carrito-eliminar-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .carrito-eliminar-btn:hover {
+    background-color: #d32f2f;
+  }

@@ -1,0 +1,92 @@
+.categoria-prod {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.categoria-banner {
+  margin-bottom: 2rem;
+}
+
+.categoria-banner-img {
+  width: 100%;
+  height:45cap;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Grid de 4 columnas */
+.categoria-grid-cuatro {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem; /* Reduce el espacio entre tarjetas */
+  margin-bottom: 2rem;
+  padding: 0 1rem; /* Añade un poco de espacio a los lados */
+  width: 98%;
+}
+
+/* Grid de 2 columnas */
+.categoria-grid-dos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem; /* Reduce el espacio entre tarjetas */
+  padding: 0 1rem;
+  width: 98%;
+}
+
+/* Estilos generales de las tarjetas */
+.categoria-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.categoria-item:hover {
+  transform: scale(1.05);
+}
+
+.categoria-img {
+  width: 100%;
+  height: auto; /* La imagen se ajustará automáticamente */
+}
+
+.categoria-info {
+  padding: 0.8rem; /* Reduce el padding interno */
+  text-align: left;
+}
+
+.categoria-desc {
+  font-size: 0.9rem; /* Disminuye ligeramente el tamaño de la fuente */
+  color: #333;
+  font-weight: bold;
+}
+
+.categoria-precio {
+  font-size: 1rem; /* Reduce ligeramente el tamaño del precio */
+  color: #E63946;
+  margin-top: 0.5rem;
+}
+
+.categoria-descuento {
+  font-size: 0.9rem;
+  color: #219EBC;
+  font-weight: bold;
+}
+
+.categoria-boton {
+  background-color: #219EBC;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: background-color 0.3s;
+}
+
+.categoria-boton:hover {
+  background-color: #023047;
+}

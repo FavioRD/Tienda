@@ -1,0 +1,123 @@
+.nav-header {
+    background-color:#9A8C98;
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .navbar-logo h1 {
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    padding-right: 9%;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #4A4E69;
+    font-weight: bold;
+  }
+  
+  .navbar-links a:hover {
+    color: #9A8C98;
+  }
+  
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-content {
+    background: rgba(0, 0, 0, 0.1); 
+    padding: 1em 2em;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .header-content h2 {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+  }
+  
+  .header-content p {
+    font-size: 1.2em;
+  }
+  
+  .carrito {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .carrito-icono {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .carrito-cantidad {
+    background-color: #ff6f61;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+  }
+  
+  .carrito-dropdown {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+  }
+  
+  .carrito-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .carrito-item button {
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    padding: 0.3rem 0.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .carrito-item button:hover {
+    background-color: #d62828;
+  }
+  
