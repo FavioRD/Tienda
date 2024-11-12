@@ -17,7 +17,11 @@ function App() {
   const eliminarDelCarrito = (id) => {
     setCarrito((prevCarrito) => prevCarrito.filter((producto) => producto.id !== id));
   };
-  const [mostrarVentanaPago, setMostrarVentanaPago] = useState(false);
+ 
+  const vaciarCarrito = () => {
+    setCarrito([]); 
+  };
+
   return (
     <Router>
       <NavHeader carrito={carrito} eliminarDelCarrito={eliminarDelCarrito} />
@@ -44,7 +48,7 @@ function App() {
         {/* Página del carrito */}
         <Route
           path="/carrito"
-          element={<Carrito carrito={carrito} eliminarDelCarrito={eliminarDelCarrito} />}
+          element={<Carrito carrito={carrito} eliminarDelCarrito={eliminarDelCarrito} vaciarCarrito={vaciarCarrito} />}
         />
       </Routes>
       <Footer />

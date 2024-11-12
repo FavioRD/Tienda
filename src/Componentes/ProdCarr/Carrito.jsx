@@ -1,17 +1,15 @@
 import React, { useState } from "react";
+import MetPago from "../MetPago/MetPago";
 import "./Carrito.css";
-import MetPago from "../MetPago/MetPago"; 
 
-const Carrito = ({ carrito, eliminarDelCarrito }) => {
-  const [mostrarMetPago, setMostrarMetPago] = useState(false); 
+const Carrito = ({ carrito, eliminarDelCarrito, vaciarCarrito }) => {
+  const [mostrarPago, setMostrarPago] = useState(false); 
 
   const calcularTotal = () => {
     if (carrito.length === 0) return "0.00";
-    return carrito.reduce((total, producto) => total + producto.precio, 0).toFixed(2);
+    return carrito.reduce((total, producto) => total + producto.precio, 0);
   };
 
-  const abrirVentanaPago = () => setMostrarMetPago(true); 
-  const cerrarVentanaPago = () => setMostrarMetPago(false); 
   return (
     <div className="carrito-detalle">
       <h2>
@@ -45,15 +43,19 @@ const Carrito = ({ carrito, eliminarDelCarrito }) => {
           <p>Total : S/.{calcularTotal()}</p>
           <button
             className="carrito-resumen-continuar"
-            onClick={abrirVentanaPago} 
+            onClick={() => setMostrarPago(true)}
           >
             Continuar compra
           </button>
         </div>
       </div>
 
-      {/* Componente MetPago */}
-      <MetPago mostrar={mostrarMetPago} cerrarVentana={cerrarVentanaPago} />
+      {/* Ventana de método de pago */}
+      <MetPago
+        mostrar={mostrarPago}
+        cerrarVentana={() => setMostrarPago(false)}
+        vaciarCarrito={vaciarCarrito}
+      />
     </div>
   );
 };

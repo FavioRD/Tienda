@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import "./MetPago.css";
 
-function MetPago({ mostrar, cerrarVentana }) {
+function MetPago({ mostrar, cerrarVentana, vaciarCarrito }) {
   const [compraExitosa, setCompraExitosa] = useState(false); 
 
   const realizarCompra = (e) => {
     e.preventDefault(); 
-    setCompraExitosa(true); 
+    setCompraExitosa(true);
+
+    
     setTimeout(() => {
+      vaciarCarrito(); 
       setCompraExitosa(false); 
       cerrarVentana(); 
     }, 3000);
@@ -22,7 +25,7 @@ function MetPago({ mostrar, cerrarVentana }) {
           &times;
         </button>
 
-        
+        {/* Mensaje de compra exitosa */}
         {compraExitosa && (
           <div className="metpago-exito">
             ¡Compra realizada con éxito!
@@ -74,7 +77,7 @@ function MetPago({ mostrar, cerrarVentana }) {
                 />
               </div>
               <button type="submit" className="metpago-boton">
-                Pagar
+               Pagar
               </button>
             </form>
           </>
