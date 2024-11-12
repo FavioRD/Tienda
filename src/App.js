@@ -10,19 +10,14 @@ import Carrito from "./Componentes/ProdCarr/Carrito";
 import Productos from "./Paginas/Productos";
 
 function App() {
-  // Estado global del carrito
   const [carrito, setCarrito] = useState([]);
-
-  // Función para agregar productos al carrito
   const agregarAlCarrito = (producto) => {
     setCarrito((prevCarrito) => [...prevCarrito, producto]);
   };
-
-  // Función para eliminar productos del carrito
   const eliminarDelCarrito = (id) => {
     setCarrito((prevCarrito) => prevCarrito.filter((producto) => producto.id !== id));
   };
-
+  const [mostrarVentanaPago, setMostrarVentanaPago] = useState(false);
   return (
     <Router>
       <NavHeader carrito={carrito} eliminarDelCarrito={eliminarDelCarrito} />
