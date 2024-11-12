@@ -19,22 +19,22 @@
 .categoria-grid-cuatro {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 1rem; /* Reduce el espacio entre tarjetas */
+  gap: 1rem;
   margin-bottom: 2rem;
-  padding: 0 1rem; /* Añade un poco de espacio a los lados */
+  padding: 0 1rem; 
   width: 98%;
 }
 
-/* Grid de 2 columnas */
+
 .categoria-grid-dos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem; /* Reduce el espacio entre tarjetas */
+  gap: 1rem; 
   padding: 0 1rem;
   width: 98%;
 }
 
-/* Estilos generales de las tarjetas */
+
 .categoria-item {
   background-color: white;
   border: 1px solid #ddd;
@@ -50,22 +50,22 @@
 
 .categoria-img {
   width: 100%;
-  height: auto; /* La imagen se ajustará automáticamente */
+  height: auto; 
 }
 
 .categoria-info {
-  padding: 0.8rem; /* Reduce el padding interno */
+  padding: 0.8rem; 
   text-align: left;
 }
 
 .categoria-desc {
-  font-size: 0.9rem; /* Disminuye ligeramente el tamaño de la fuente */
+  font-size: 0.9rem; 
   color: #333;
   font-weight: bold;
 }
 
 .categoria-precio {
-  font-size: 1rem; /* Reduce ligeramente el tamaño del precio */
+  font-size: 1rem; 
   color: #E63946;
   margin-top: 0.5rem;
 }

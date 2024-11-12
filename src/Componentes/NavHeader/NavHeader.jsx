@@ -24,7 +24,6 @@ function NavHeader({ carrito, eliminarDelCarrito }) {
 
   return (
     <header className="nav-header">
-      {/* Navbar */}
       <nav className="navbar">
         <div className="navbar-logo">
           <h1>Mi Tienda</h1>
@@ -43,7 +42,6 @@ function NavHeader({ carrito, eliminarDelCarrito }) {
             <Link to="/contacto">Contacto</Link>
           </li>
         </ul>
-        {/* Carrito */}
         <div
           className="carrito"
           onMouseEnter={() => setMostrarCarrito(true)}
@@ -82,14 +80,12 @@ function NavHeader({ carrito, eliminarDelCarrito }) {
           )}
         </div>
       </nav>
-
-      {/* Banner */}
       <div
         className="banner"
         style={{ backgroundImage: `url(${banners[currentBanner]})` }}
       >
         <div className="header-content">
-          <h2>Bienvenido a Mi Tienda</h2>
+          <h2>Tienda</h2>
           <p>Encuentra lo mejor en productos de calidad</p>
         </div>
       </div>

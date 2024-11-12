@@ -49,7 +49,7 @@ function ProdMujer({ agregarAlCarrito }) {
                 <h4>{producto.nombre}</h4>
                 <p>S/.{producto.precio}</p>
                 <button
-                  onClick={() => agregarAlCarrito(producto)} // Agregar al carrito
+                  onClick={() => agregarAlCarrito(producto)}
                   className="agregar-carrito-btn"
                 >
                   Agregar al carrito

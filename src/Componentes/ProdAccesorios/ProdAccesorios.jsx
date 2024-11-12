@@ -15,7 +15,7 @@ const productos = [
 function ProdAccesorios({ agregarAlCarrito }) {
   const [filtroPrecio, setFiltroPrecio] = useState("todos");
   
-  // Filtrar productos según el rango de precios seleccionado
+  
   const filtrarProductos = () => {
     if (filtroPrecio === "bajo") return productos.filter((prod) => prod.precio < 100);
     if (filtroPrecio === "medio") return productos.filter((prod) => prod.precio >= 100 && prod.precio <= 400);
@@ -49,7 +49,7 @@ function ProdAccesorios({ agregarAlCarrito }) {
                 <h4>{producto.nombre}</h4>
                 <p>S/.{producto.precio}</p>
                 <button
-                  onClick={() => agregarAlCarrito(producto)} // Agregar al carrito
+                  onClick={() => agregarAlCarrito(producto)} 
                   className="agregar-carrito-btn"
                 >
                   Agregar al carrito

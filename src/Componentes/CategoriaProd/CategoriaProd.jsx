@@ -15,7 +15,6 @@ const productos = [
 const CategoriaProd = ({ agregarAlCarrito }) => {
   return (
     <div className="categoria-prod">
-      {/* Productos */}
       <div className="categoria-grid-cuatro">
         {productos.slice(0, 5).map((producto) => (
           <div key={producto.id} className="categoria-item">
@@ -33,8 +32,6 @@ const CategoriaProd = ({ agregarAlCarrito }) => {
           </div>
         ))}
       </div>
-
-      {/* Segunda Fila */}
       <div className="categoria-grid-dos">
         {productos.slice(5, 8).map((producto) => (
           <div key={producto.id} className="categoria-item">
