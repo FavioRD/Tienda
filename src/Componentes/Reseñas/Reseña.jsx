@@ -5,31 +5,31 @@ import { FaStar } from 'react-icons/fa';
 const reviews = [
   {
     id: 1,
-    name: 'Jane Doe',
+    name: 'Sebastian Vega',
     photo: 'https://via.placeholder.com/50',
-    rating: 5,
-    comment: 'Great product! Highly recommended.'
+    rating: 4,
+    comment: 'pepe'
   },
   {
     id: 2,
-    name: 'John Smith',
+    name: 'Jeremias Amador',
     photo: 'https://via.placeholder.com/50',
     rating: 4,
-    comment: 'Very satisfied with the quality.'
+    comment: 'pepe'
   },
   {
     id: 3,
-    name: 'Emily Clark',
+    name: 'Leonel Messi',
     photo: 'https://via.placeholder.com/50',
-    rating: 3,
-    comment: 'It’s okay, but could be improved.'
+    rating: 5,
+    comment: 'pepe'
   },
   {
     id: 4,
-    name: 'Michael Brown',
+    name: 'Cristiano Ronaldo',
     photo: 'https://via.placeholder.com/50',
     rating: 5,
-    comment: 'Amazing experience, would buy again!'
+    comment: 'pepe'
   },
 ];
 
@@ -53,7 +53,7 @@ function ClientReviews() {
         </div>
         <p className="client-comment">{reviews[currentIndex].comment}</p>
       </div>
-      <button className="next-button" onClick={nextReview}>Next</button>
+      <button className="next-button" onClick={nextReview}>Siguiente</button>
     </section>
   );
 }
