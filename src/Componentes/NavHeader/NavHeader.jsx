@@ -98,7 +98,7 @@ function NavHeader({ carrito, eliminarDelCarrito }) {
         style={{ backgroundImage: `url(${banners[currentBanner]})` }}
       >
         <div className="header-content">
-          <h2>Tienda "pepe"</h2>
+          <h2>Tienda "pepeasd"</h2>
           <p>Encuentra lo mejor en productos de calidad</p>
         </div>
       </div>
