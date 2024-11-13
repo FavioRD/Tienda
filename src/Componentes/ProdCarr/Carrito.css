@@ -19,9 +19,10 @@
   }
   
   .carrito-item-img {
-    width: 80px;
-    height: 80px;
-    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+    padding-top: 40px;
   }
   
   .carrito-item-info {

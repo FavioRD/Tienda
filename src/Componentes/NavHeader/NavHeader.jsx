@@ -21,6 +21,19 @@ function NavHeader({ carrito, eliminarDelCarrito }) {
   }, [banners.length]);
 
   const [mostrarCarrito, setMostrarCarrito] = useState(false);
+  let timer;
+
+
+  const handleMouseEnter = () => {
+    clearTimeout(timer); 
+    setMostrarCarrito(true); 
+  };
+
+  const handleMouseLeave = () => {
+    timer = setTimeout(() => {
+      setMostrarCarrito(false);   
+    }, 21000);
+  };
 
   return (
     <header className="nav-header">
@@ -44,8 +57,8 @@ function NavHeader({ carrito, eliminarDelCarrito }) {
         </ul>
         <div
           className="carrito"
-          onMouseEnter={() => setMostrarCarrito(true)}
-          onMouseLeave={() => setMostrarCarrito(false)}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
         >
           <Link to="/carrito" className="carrito-link">
             <FaShoppingCart className="carrito-icono" />

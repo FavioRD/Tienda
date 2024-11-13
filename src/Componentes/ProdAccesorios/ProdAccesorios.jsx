@@ -2,14 +2,22 @@ import React, { useState } from "react";
 import "./ProdAccesorios.css";
 
 const productos = [
-  { id: 1, nombre: "Cartera de cuero ", precio: 399, imagen: "Img-Prod-Acc/cartera.jpg" },
-  { id: 2, nombre: "Collar Hombre ", precio: 659, imagen: "Img-Prod-Acc/collar.jpg" },
-  { id: 3, nombre: "Gorras ", precio: 59, imagen: "Img-Prod-Acc/gorras.jpg" },
-  { id: 4, nombre: "Banda de Sudor", precio: 159, imagen: "Img-Prod-Acc/bnds.jpg" },
-  { id: 5, nombre: "Guantes ", precio: 159, imagen: "Img-Prod-Acc/guantes.jpg" },
-  { id: 6, nombre: "Medias Deportivas", precio: 159, imagen: "Img-Prod-Acc/medias.jpg" },
-  { id: 7, nombre: "Lentes", precio: 159, imagen: "Img-Prod-Acc/lentes.jpg" },
-  { id: 8, nombre: "Pulseras H/M", precio: 159, imagen: "Img-Prod-Acc/pulseras.jpg" },
+  { id: 1, nombre: "Cartera de Cuero ", precio: 399, imagen: "Img-Prod-Acc/cartera.jpg" },
+  { id: 2, nombre: "Collar de Cruz Hombre ", precio: 659, imagen: "Img-Prod-Acc/collar.jpg" },
+  { id: 3, nombre: "Gorra LA ", precio: 59, imagen: "Img-Prod-Acc/gorras.jpg" },
+  { id: 4, nombre: "Banda de Sudor Adidas", precio: 159, imagen: "Img-Prod-Acc/bnds.jpg" },
+  { id: 5, nombre: "Guantes de Cuero", precio: 159, imagen: "Img-Prod-Acc/guantes.jpg" },
+  { id: 6, nombre: "Medias Antideslisante", precio: 159, imagen: "Img-Prod-Acc/medias.jpg" },
+  { id: 7, nombre: "Lentes Montura Cuadrada", precio: 159, imagen: "Img-Prod-Acc/lentes.jpg" },
+  { id: 8, nombre: "Pulsera de Oro H/M", precio: 159, imagen: "Img-Prod-Acc/pulseras.jpg" },
+  { id: 9, nombre: "Reloj Cyzone Mujer", precio: 399, imagen: "Img-Prod-Acc/relojmujer.jpg" },
+  { id: 10, nombre: "Sombrero de Cuero", precio: 659, imagen: "Img-Prod-Acc/sombrerocuero.jpg" },
+  { id: 11, nombre: "Gorra de Lana", precio: 59, imagen: "Img-Prod-Acc/gorroinvi.jpg" },
+  { id: 12, nombre: "Sombrilla de Mano", precio: 159, imagen: "Img-Prod-Acc/sombrilla.jpg" },
+  { id: 13, nombre: "Guantes de Arquero ", precio: 159, imagen: "Img-Prod-Acc/guantesarq.jpg" },
+  { id: 14, nombre: "Medias Deportivas", precio: 159, imagen: "Img-Prod-Acc/correa.jpg" },
+  { id: 15, nombre: "Maletin de Cuero", precio: 159, imagen: "Img-Prod-Acc/maletin.jpg" },
+  { id: 16, nombre: "Gorra New Era", precio: 159, imagen: "Img-Prod-Acc/gorrapla.jpg" },
 ];
 
 function ProdAccesorios({ agregarAlCarrito }) {

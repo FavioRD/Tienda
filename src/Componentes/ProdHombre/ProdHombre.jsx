@@ -2,14 +2,23 @@ import React, { useState } from "react";
 import "./ProdHombre.css";
 
 const productos = [
-  { id: 1, nombre: "Mochila ", precio: 399, imagen: "Img-Prod-Hom/.jpg" },
-  { id: 2, nombre: "Maleta ", precio: 659, imagen: "Img-Prod-Hom/.jpg" },
-  { id: 3, nombre: "Banda de Sudor ", precio: 59, imagen: "Img-Prod-Hom/.jpg" },
-  { id: 4, nombre: "Guantes", precio: 159, imagen: "Img-Prod-Hom/.jpg" },
-  { id: 5, nombre: "Medias ", precio: 159, imagen: "Img-Prod-Hom/.jpg" },
-  { id: 6, nombre: "Gorra ", precio: 159, imagen: "Img-Prod-Hom/.jpg" },
-  { id: 7, nombre: "Medias Al Tobillo ", precio: 159, imagen: "Img-Prod-Hom/.jpg" },
-  { id: 8, nombre: "Medias  ", precio: 159, imagen: "Img-Prod-Hom/.jpg" },
+  { id: 1, nombre: "Chaqueta de Cuero", precio: 399, imagen: "Img-Prod-Hom/casacacuero.jpg" },
+  { id: 2, nombre: "Puffer Jacket", precio: 659, imagen: "Img-Prod-Hom/casacapuff.jpg" },
+  { id: 3, nombre: "Jean Slim", precio: 59, imagen: "Img-Prod-Hom/jeaneco.jpg" },
+  { id: 4, nombre: "Polo Basico", precio: 159, imagen: "Img-Prod-Hom/polobasico.jpg" },
+  { id: 5, nombre: "Polo Local Real Madrid", precio: 159, imagen: "Img-Prod-Hom/poloreal.jpg" },
+  { id: 6, nombre: "Cargo Pant", precio: 159, imagen: "Img-Prod-Hom/cargo.jpg" },
+  { id: 7, nombre: "Jacket Varsity Negro", precio: 159, imagen: "Img-Prod-Hom/varsi.jpg" },
+  { id: 8, nombre: "Camisa Manga Corta", precio: 159, imagen: "Img-Prod-Hom/camisa.jpg" },
+  { id: 9, nombre: "Camisa de Vestir", precio: 399, imagen: "Img-Prod-Hom/camisave.jpg" },
+  { id: 10, nombre: "Polera Adidas", precio: 659, imagen: "Img-Prod-Hom/sudadera.jpg" },
+  { id: 11, nombre: "Polera F1 Puma ", precio: 59, imagen: "Img-Prod-Hom/polerapum.jpg" },
+  { id: 12, nombre: "Conjunto Adidas", precio: 159, imagen: "Img-Prod-Hom/conjuntoad.jpg" },
+  { id: 13, nombre: "Rompeviento Reebok", precio: 159, imagen: "Img-Prod-Hom/conjuntoreb.jpg" },
+  { id: 14, nombre: "Short Speed ", precio: 159, imagen: "Img-Prod-Hom/shortcorr.jpg" },
+  { id: 15, nombre: "Pantalon de Vestir", precio: 159, imagen: "Img-Prod-Hom/pantalon.jpg" },
+  { id: 16, nombre: "Short Playero", precio: 159, imagen: "Img-Prod-Hom/shortplaya.jpg" },
+  
 ];
 
 function ProdHombre({ agregarAlCarrito }) {
