@@ -15,7 +15,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Grid de 4 columnas */
+
 .categoria-grid-cuatro {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -77,7 +77,7 @@
 }
 
 .categoria-boton {
-  background-color: #219EBC;
+  background-color: #D1825f;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
@@ -88,5 +88,5 @@
 }
 
 .categoria-boton:hover {
-  background-color: #023047;
+  background-color: #774d3a;
 }

@@ -10,6 +10,14 @@ const productos = [
   { id: 6, nombre: "Gorra ", precio: 159, imagen: "Img-Prod-Niñ/.jpg" },
   { id: 7, nombre: "Medias Al Tobillo ", precio: 159, imagen: "Img-Prod-Niñ/.jpg" },
   { id: 8, nombre: "Medias  ", precio: 159, imagen: "Img-Prod-Niñ/.jpg" },
+  { id: 9, nombre: "Gorra ", precio: 159, imagen: "Img-Prod-Niñ/.jpg" },
+  { id: 10, nombre: "Gorra ", precio: 159, imagen: "Img-Prod-Niñ/.jpg" },
+  { id: 11, nombre: "Gorra ", precio: 159, imagen: "Img-Prod-Niñ/.jpg" },
+  { id: 12, nombre: "Gorra ", precio: 159, imagen: "Img-Prod-Niñ/.jpg" },
+  { id: 13, nombre: "Gorra ", precio: 159, imagen: "Img-Prod-Niñ/.jpg" },
+  { id: 14, nombre: "Gorra ", precio: 159, imagen: "Img-Prod-Niñ/.jpg" },
+  { id: 15, nombre: "Gorra ", precio: 159, imagen: "Img-Prod-Niñ/.jpg" },
+  { id: 16, nombre: "Gorra ", precio: 159, imagen: "Img-Prod-Niñ/.jpg" },
 ];
 
 function ProdNiños({ agregarAlCarrito }) {

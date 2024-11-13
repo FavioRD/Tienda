@@ -1,5 +1,5 @@
 .discount-banner {
-    background-color: #9A8C98;
+    background-color: #301f13;
     color: white;
     text-align: center;
     padding: 2em 0;
@@ -11,16 +11,5 @@
   .discount-banner h2 {
     margin: 0;
     font-size: 2em;
-  }
-  
-  .discount-banner button {
-    margin-top: 1em;
-    padding: 0.5em 1.5em;
-    background-color: #4A4E69;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 1em;
   }
   

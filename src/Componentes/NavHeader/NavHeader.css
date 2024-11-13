@@ -1,5 +1,5 @@
 .nav-header {
-  background-color: #9A8C98;
+  background-color: #774D3A;
   text-align: center;
 }
 
@@ -8,12 +8,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 1em 2em;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #774D3A;
 }
 
 .navbar-logo h1 {
   font-size: 1.8em;
-  color: #333;
+  color: #f5f5f5;
 }
 
 .navbar-links {
@@ -25,7 +25,7 @@
 
 .navbar-links a {
   text-decoration: none;
-  color: #4A4E69;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -69,12 +69,12 @@
 .carrito-icono {
   font-size: 1.5rem;
   cursor: pointer;
-  color: #fff;
+  color: #ffffff;
 }
 
 .carrito-cantidad {
   background-color: #ff6f61;
-  color: #fff;
+  color: #141414;
   font-size: 0.8rem;
   font-weight: bold;
   border-radius: 50%;

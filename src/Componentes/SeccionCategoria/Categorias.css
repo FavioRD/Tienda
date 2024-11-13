@@ -33,8 +33,8 @@
 }
 
 .category-card button {
-  background-color: #4A4E69;
-  color: #fff;
+  background-color: #D1825f;
+  color: #ffffff;
   border: none;
   padding: 0.5em 1em;
   border-radius: 4px;
@@ -43,5 +43,5 @@
 }
 
 .category-card button:hover {
-  background-color: #9A8C98;
+  background-color: #774d3a;
 }

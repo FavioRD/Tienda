@@ -40,7 +40,7 @@
   .agregar-carrito-btn {
     margin-top: 10px;
     padding: 10px;
-    background-color: #219EBC;
+    background-color: #D1825f;
     color: white;
     border: none;
     border-radius: 4px;
@@ -49,10 +49,10 @@
   }
   
   .agregar-carrito-btn:hover {
-    background-color: #023047;
+    background-color: #774d3a;
   }
   .title {
-    background-color: #9A8C98;
+    background-color: #774d3a;
     color: white;
     text-align: center;
     padding: 2em 0;

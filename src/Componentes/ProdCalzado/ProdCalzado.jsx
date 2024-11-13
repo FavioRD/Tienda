@@ -10,6 +10,14 @@ const productos = [
   { id: 6, nombre: "Gorra ", precio: 159, imagen: "Img-Prod-Cal/.jpg" },
   { id: 7, nombre: "Medias Al Tobillo ", precio: 159, imagen: "Img-Prod-Cal/.jpg" },
   { id: 8, nombre: "Medias  ", precio: 159, imagen: "Img-Prod-Cal/.jpg" },
+  { id: 9, nombre: "Mochila ", precio: 399, imagen: "Img-Prod-Cal/.jpg" },
+  { id: 10, nombre: "Maleta ", precio: 659, imagen: "Img-Prod-Cal/.jpg" },
+  { id: 11, nombre: "Banda de Sudor ", precio: 59, imagen: "Img-Prod-Cal/.jpg" },
+  { id: 12, nombre: "Guantes", precio: 159, imagen: "Img-Prod-Cal/.jpg" },
+  { id: 13, nombre: "Medias ", precio: 159, imagen: "Img-Prod-Cal/.jpg" },
+  { id: 14, nombre: "Gorra ", precio: 159, imagen: "Img-Prod-Cal/.jpg" },
+  { id: 15, nombre: "Medias Al Tobillo ", precio: 159, imagen: "Img-Prod-Cal/.jpg" },
+  { id: 16, nombre: "Medias  ", precio: 159, imagen: "Img-Prod-Cal/.jpg" },
 ];
 
 function ProdCalzado({ agregarAlCarrito }) {
