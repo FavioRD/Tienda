@@ -39,7 +39,7 @@ function NavHeader({ carrito, eliminarDelCarrito }) {
     <header className="nav-header">
       <nav className="navbar">
         <div className="navbar-logo">
-          <h1>Mi Tienda</h1>
+          <h1>LOGO</h1>
         </div>
         <ul className="navbar-links">
           <li>
@@ -98,7 +98,7 @@ function NavHeader({ carrito, eliminarDelCarrito }) {
         style={{ backgroundImage: `url(${banners[currentBanner]})` }}
       >
         <div className="header-content">
-          <h2>Tienda</h2>
+          <h2>Tienda "pepe"</h2>
           <p>Encuentra lo mejor en productos de calidad</p>
         </div>
       </div>
