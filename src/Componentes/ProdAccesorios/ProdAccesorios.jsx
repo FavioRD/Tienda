@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import "./ProdAccesorios.css";
 
 const productos = [
-  { id: 1, nombre: "Mochila ", precio: 399, imagen: "https://img.freepik.com/vector-gratis/set-accesorios-mujer_98292-4471.jpg" },
-  { id: 2, nombre: "Maleta ", precio: 659, imagen: "https://img.freepik.com/vector-gratis/set-accesorios-mujer_98292-4471.jpg" },
-  { id: 3, nombre: "Banda de Sudor ", precio: 59, imagen: "https://img.freepik.com/vector-gratis/set-accesorios-mujer_98292-4471.jpg" },
-  { id: 4, nombre: "Guantes", precio: 159, imagen: "https://img.freepik.com/vector-gratis/set-accesorios-mujer_98292-4471.jpg" },
-  { id: 5, nombre: "Medias ", precio: 159, imagen: "https://img.freepik.com/vector-gratis/set-accesorios-mujer_98292-4471.jpg" },
-  { id: 6, nombre: "Gorra ", precio: 159, imagen: "https://img.freepik.com/vector-gratis/set-accesorios-mujer_98292-4471.jpg" },
-  { id: 7, nombre: "Medias Al Tobillo ", precio: 159, imagen: "https://img.freepik.com/vector-gratis/set-accesorios-mujer_98292-4471.jpg" },
-  { id: 8, nombre: "Medias  ", precio: 159, imagen: "https://img.freepik.com/vector-gratis/set-accesorios-mujer_98292-4471.jpg" },
+  { id: 1, nombre: "Cartera de cuero ", precio: 399, imagen: "Img-Prod-Acc/cartera.jpg" },
+  { id: 2, nombre: "Collar Hombre ", precio: 659, imagen: "Img-Prod-Acc/collar.jpg" },
+  { id: 3, nombre: "Gorras ", precio: 59, imagen: "Img-Prod-Acc/gorras.jpg" },
+  { id: 4, nombre: "Banda de Sudor", precio: 159, imagen: "Img-Prod-Acc/bnds.jpg" },
+  { id: 5, nombre: "Guantes ", precio: 159, imagen: "Img-Prod-Acc/guantes.jpg" },
+  { id: 6, nombre: "Medias Deportivas", precio: 159, imagen: "Img-Prod-Acc/medias.jpg" },
+  { id: 7, nombre: "Lentes", precio: 159, imagen: "Img-Prod-Acc/lentes.jpg" },
+  { id: 8, nombre: "Pulseras H/M", precio: 159, imagen: "Img-Prod-Acc/pulseras.jpg" },
 ];
 
 function ProdAccesorios({ agregarAlCarrito }) {
@@ -20,7 +20,7 @@ function ProdAccesorios({ agregarAlCarrito }) {
     if (filtroPrecio === "bajo") return productos.filter((prod) => prod.precio < 100);
     if (filtroPrecio === "medio") return productos.filter((prod) => prod.precio >= 100 && prod.precio <= 400);
     if (filtroPrecio === "alto") return productos.filter((prod) => prod.precio > 400);
-    return productos; // Todos
+    return productos; 
   };
 
   const productosFiltrados = filtrarProductos();
