@@ -27,7 +27,7 @@ const reviews = [
   {
     id: 4,
     name: 'Cristiano Ronaldo',
-    photo: 'https://via.placeholder.com/50',
+    photo: 'https://imggraficos.gruporeforma.com/2022/11/Cristiano-2.jpg',
     rating: 5,
     comment: 'pepe'
   },
