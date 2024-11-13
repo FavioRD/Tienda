@@ -19,8 +19,8 @@ const reviews = [
   },
   {
     id: 3,
-    name: 'Leonel Messi',
-    photo: 'https://via.placeholder.com/50',
+    name: 'Lionel Messi',
+    photo: 'https://media.admagazine.com/photos/637d11a6e63c8afac40e7a01/1:1/w_2896,h_2896,c_limit/1442809583',
     rating: 5,
     comment: 'pepe'
   },
