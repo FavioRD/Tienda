@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import "./ProdNiños.css";
 
 const productos = [
-  { id: 1, nombre: "Mochila ", precio: 399, imagen: "https://img.freepik.com/vector-gratis/set-accesorios-mujer_98292-4471.jpg" },
-  { id: 2, nombre: "Maleta ", precio: 659, imagen: "https://img.freepik.com/vector-gratis/set-accesorios-mujer_98292-4471.jpg" },
-  { id: 3, nombre: "Banda de Sudor ", precio: 59, imagen: "https://img.freepik.com/vector-gratis/set-accesorios-mujer_98292-4471.jpg" },
-  { id: 4, nombre: "Guantes", precio: 159, imagen: "https://img.freepik.com/vector-gratis/set-accesorios-mujer_98292-4471.jpg" },
-  { id: 5, nombre: "Medias ", precio: 159, imagen: "https://img.freepik.com/vector-gratis/set-accesorios-mujer_98292-4471.jpg" },
-  { id: 6, nombre: "Gorra ", precio: 159, imagen: "https://img.freepik.com/vector-gratis/set-accesorios-mujer_98292-4471.jpg" },
-  { id: 7, nombre: "Medias Al Tobillo ", precio: 159, imagen: "https://img.freepik.com/vector-gratis/set-accesorios-mujer_98292-4471.jpg" },
-  { id: 8, nombre: "Medias  ", precio: 159, imagen: "https://img.freepik.com/vector-gratis/set-accesorios-mujer_98292-4471.jpg" },
+  { id: 1, nombre: "Mochila ", precio: 399, imagen: "Img-Prod-Niñ/.jpg" },
+  { id: 2, nombre: "Maleta ", precio: 659, imagen: "Img-Prod-Niñ/.jpg" },
+  { id: 3, nombre: "Banda de Sudor ", precio: 59, imagen: "Img-Prod-Niñ/.jpg" },
+  { id: 4, nombre: "Guantes", precio: 159, imagen: "Img-Prod-Niñ/.jpg" },
+  { id: 5, nombre: "Medias ", precio: 159, imagen: "Img-Prod-Niñ/.jpg" },
+  { id: 6, nombre: "Gorra ", precio: 159, imagen: "Img-Prod-Niñ/.jpg" },
+  { id: 7, nombre: "Medias Al Tobillo ", precio: 159, imagen: "Img-Prod-Niñ/.jpg" },
+  { id: 8, nombre: "Medias  ", precio: 159, imagen: "Img-Prod-Niñ/.jpg" },
 ];
 
 function ProdNiños({ agregarAlCarrito }) {
