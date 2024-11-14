@@ -1,6 +1,6 @@
 
 .footer {
-  background-color: #9A8C98;
+  background-color: #615c5a;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -15,13 +15,15 @@
   color: #fff;
   font-size: 1.5em;
   transition: color 0.3s ease;
+  padding-top: 10px;
 }
 
 .footer-icons a:hover {
-  color:#4A4E69; 
+  color:#020202; 
 }
 
 .footer-links {
+  padding-top: 15px;
   margin-top: 15px;
 }
 
@@ -34,7 +36,7 @@
 }
 
 .footer-links a:hover {
-  color: #00aced;
+  color: #bea7a7;
 }
 
 

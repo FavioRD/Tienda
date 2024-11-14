@@ -36,7 +36,7 @@
   }
   
   .carrito-item-eliminar {
-    background-color: red;
+    background-color: rgba(240, 16, 16, 0.842);
     color: white;
     border: none;
     padding: 5px 10px;
@@ -53,7 +53,7 @@
   .carrito-resumen-continuar {
     width: 100%;
     padding: 10px;
-    background-color: #000;
+    background-color: #615c5a;
     color: #fff;
     cursor: pointer;
     border: none;

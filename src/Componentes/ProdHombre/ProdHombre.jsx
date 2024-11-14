@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import "./ProdHombre.css";
+import "../ProdHombre/ProdHombre.css";
 
 const productos = [
   { id: 1, nombre: "Chaqueta de Cuero", precio: 399, imagen: "Img-Prod-Hom/casacacuero.jpg" },
   { id: 2, nombre: "Puffer Jacket", precio: 659, imagen: "Img-Prod-Hom/casacapuff.jpg" },
   { id: 3, nombre: "Jean Slim", precio: 59, imagen: "Img-Prod-Hom/jeaneco.jpg" },
   { id: 4, nombre: "Polo Basico", precio: 159, imagen: "Img-Prod-Hom/polobasico.jpg" },
-  { id: 5, nombre: "Polo Local Real Madrid", precio: 159, imagen: "Img-Prod-Hom/poloreal.jpg" },
+  { id: 5, nombre: "Polo local Real Madrid", precio: 159, imagen: "Img-Prod-Hom/poloreal.jpg" },
   { id: 6, nombre: "Cargo Pant", precio: 159, imagen: "Img-Prod-Hom/cargo.jpg" },
   { id: 7, nombre: "Jacket Varsity Negro", precio: 159, imagen: "Img-Prod-Hom/varsi.jpg" },
-  { id: 8, nombre: "Camisa Manga Corta", precio: 159, imagen: "Img-Prod-Hom/camisa.jpg" },
+  { id: 8, nombre: "Camisa manga corta", precio: 159, imagen: "Img-Prod-Hom/camisa.jpg" },
   { id: 9, nombre: "Camisa de Vestir", precio: 399, imagen: "Img-Prod-Hom/camisave.jpg" },
   { id: 10, nombre: "Polera Adidas", precio: 659, imagen: "Img-Prod-Hom/sudadera.jpg" },
   { id: 11, nombre: "Polera F1 Puma ", precio: 59, imagen: "Img-Prod-Hom/polerapum.jpg" },

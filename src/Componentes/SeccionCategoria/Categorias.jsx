@@ -6,7 +6,7 @@ function CategorySection() {
     { id: 1, title: 'Calzado', image: 'Img-Categorias/calzado.jpg' },
     { id: 2, title: 'Mujer', image: 'Img-Categorias/mujer.jpg' },
     { id: 3, title: 'Hombre', image: 'Img-Categorias/hombre.jpg' },
-    { id: 4, title: 'Niños', image: 'Img-Categorias/niños.jpg' },
+    { id: 4, title: 'Infantil', image: 'Img-Categorias/niños.jpg' },
     { id: 5, title: 'Accessorios', image: 'Img-Categorias/acc.jpg' },
   ];
 

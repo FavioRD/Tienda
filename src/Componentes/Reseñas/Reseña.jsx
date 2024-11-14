@@ -31,6 +31,13 @@ const reviews = [
     rating: 5,
     comment: 'pepe'
   },
+  {
+    id: 5,
+    name: 'Landom Escobar',
+    photo: '',
+    rating: 5,
+    comment: 'asda'
+  },
 ];
 
 function ClientReviews() {
@@ -55,6 +62,7 @@ function ClientReviews() {
       </div>
       <button className="next-button" onClick={nextReview}>Siguiente</button>
     </section>
+    
   );
 }
 

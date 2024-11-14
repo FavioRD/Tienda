@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ProdAccesorios.css";
+import "../ProdAccesorios/ProdAccesorios.css";
 
 const productos = [
   { id: 1, nombre: "Cartera de Cuero ", precio: 399, imagen: "Img-Prod-Acc/cartera.jpg" },
@@ -15,7 +15,7 @@ const productos = [
   { id: 11, nombre: "Gorra de Lana", precio: 59, imagen: "Img-Prod-Acc/gorroinvi.jpg" },
   { id: 12, nombre: "Sombrilla de Mano", precio: 159, imagen: "Img-Prod-Acc/sombrilla.jpg" },
   { id: 13, nombre: "Guantes de Arquero ", precio: 159, imagen: "Img-Prod-Acc/guantesarq.jpg" },
-  { id: 14, nombre: "Medias Deportivas", precio: 159, imagen: "Img-Prod-Acc/correa.jpg" },
+  { id: 14, nombre: "Correa de Vestir", precio: 159, imagen: "Img-Prod-Acc/correa.jpg" },
   { id: 15, nombre: "Maletin de Cuero", precio: 159, imagen: "Img-Prod-Acc/maletin.jpg" },
   { id: 16, nombre: "Gorra New Era", precio: 159, imagen: "Img-Prod-Acc/gorrapla.jpg" },
 ];
