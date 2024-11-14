@@ -5,15 +5,15 @@ const productos = [
   { id: 1, nombre: "Polo cuello camisa", precio: 399, imagen: "Img-Prod-Muj/polocuellocamisa.jpg" },
   { id: 2, nombre: "Casaca Beige", precio: 659, imagen: "Img-Prod-Muj/casacabeige.jpg" },
   { id: 3, nombre: "Blusa Yelita Coco", precio: 59, imagen: "Img-Prod-Muj/blusayelitacoco.jpg" },
-  { id: 4, nombre: "Pantalon Lari Verde Menta", precio: 159, imagen: "Img-Prod-Muj/pantalonlariverdementa.jpg" },
+  { id: 4, nombre: "Pantalon Lari   ", precio: 159, imagen: "Img-Prod-Muj/pantalonlariverdementa.jpg" },
   { id: 5, nombre: "Polera Scarlett", precio: 159, imagen: "Img-Prod-Muj/polerascarlett.jpg" },
   { id: 6, nombre: "Chaqueta Bomber", precio: 159, imagen: "Img-Prod-Muj/chaquetabomber.jpg" },
   { id: 7, nombre: "Casaca Cayra", precio: 159, imagen: "Img-Prod-Muj/casacacayra.jpg" },
   { id: 8, nombre: "Vestido Brenda", precio: 159, imagen: "Img-Prod-Muj/vestidobrenda.jpg" },
   { id: 9, nombre: "Top Cancun Coco", precio: 399, imagen: "Img-Prod-Muj/topcancuncoco.jpg" },
   { id: 10, nombre: "Falda Roxana", precio: 659, imagen: "Img-Prod-Muj/faldaroxanabeigearena.jpg" },
-  { id: 11, nombre: "Banda de Sudor ", precio: 59, imagen: "Img-Prod-Muj/jeanbritney.jpg" },
-  { id: 12, nombre: "Jean Britney", precio: 159, imagen: "Img-Prod-Muj/chompanewclose.jpg" },
+  { id: 11, nombre: "Jean Britney", precio: 59, imagen: "Img-Prod-Muj/jeanbritney.jpg" },
+  { id: 12, nombre: "Chompa New Close", precio: 159, imagen: "Img-Prod-Muj/chompanewclose.jpg" },
   { id: 13, nombre: "Chaleco Jean", precio: 159, imagen: "Img-Prod-Muj/chalecojean.jpg" },
   { id: 14, nombre: "Abrigo Bella", precio: 159, imagen: "Img-Prod-Muj/abrigobelaverde.jpg" },
   { id: 15, nombre: "Bermuda Margot", precio: 159, imagen: "Img-Prod-Muj/bermudamargot.jpg" },
@@ -28,7 +28,7 @@ function ProdMujer({ agregarAlCarrito }) {
     if (filtroPrecio === "bajo") return productos.filter((prod) => prod.precio < 100);
     if (filtroPrecio === "medio") return productos.filter((prod) => prod.precio >= 100 && prod.precio <= 400);
     if (filtroPrecio === "alto") return productos.filter((prod) => prod.precio > 400);
-    return productos; // Todos
+    return productos;
   };
 
   const productosFiltrados = filtrarProductos();

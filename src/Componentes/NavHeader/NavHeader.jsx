@@ -6,9 +6,10 @@ import "../NavHeader/NavHeader.css";
 function NavHeader({ carrito, eliminarDelCarrito }) {
   
   const banners = [
-    "",
-    "",
-    "",
+    "./Img-Ban/1.jpg",
+    "./Img-Ban/2.jpg",
+    "./Img-Ban/3.jpg",
+    "./Img-Ban/4.jpg",
   ];
 
   const [currentBanner, setCurrentBanner] = useState(0);
