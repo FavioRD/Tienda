@@ -4,7 +4,7 @@ import '../Banner de descuento/Descuento.css';
 function DiscountBanner() {
   return (
     <div className="discount-banner">
-      <h2>30% EN PRODUCTOS SELECCIONADOS</h2>
+      <h2>30% DE DESCUENTO EN PRODUCTOS SELECCIONADOS</h2>
     </div>
   );
 }

@@ -2,22 +2,22 @@ import React, { useState } from "react";
 import "../ProdCalzado/ProdCalzado.css";
 
 const productos = [
-  { id: 1, nombre: "Mochila ", precio: 399, imagen: "Img-Prod-Cal/.jpg" },
-  { id: 2, nombre: "Maleta ", precio: 659, imagen: "Img-Prod-Cal/.jpg" },
-  { id: 3, nombre: "Banda de Sudor ", precio: 59, imagen: "Img-Prod-Cal/.jpg" },
-  { id: 4, nombre: "Guantes", precio: 159, imagen: "Img-Prod-Cal/.jpg" },
-  { id: 5, nombre: "Medias ", precio: 159, imagen: "Img-Prod-Cal/.jpg" },
-  { id: 6, nombre: "Gorra ", precio: 159, imagen: "Img-Prod-Cal/.jpg" },
-  { id: 7, nombre: "Medias Al Tobillo ", precio: 159, imagen: "Img-Prod-Cal/.jpg" },
-  { id: 8, nombre: "Medias  ", precio: 159, imagen: "Img-Prod-Cal/.jpg" },
-  { id: 9, nombre: "Mochila ", precio: 399, imagen: "Img-Prod-Cal/.jpg" },
-  { id: 10, nombre: "Maleta ", precio: 659, imagen: "Img-Prod-Cal/.jpg" },
-  { id: 11, nombre: "Banda de Sudor ", precio: 59, imagen: "Img-Prod-Cal/.jpg" },
-  { id: 12, nombre: "Guantes", precio: 159, imagen: "Img-Prod-Cal/.jpg" },
-  { id: 13, nombre: "Medias ", precio: 159, imagen: "Img-Prod-Cal/.jpg" },
-  { id: 14, nombre: "Gorra ", precio: 159, imagen: "Img-Prod-Cal/.jpg" },
-  { id: 15, nombre: "Medias Al Tobillo ", precio: 159, imagen: "Img-Prod-Cal/.jpg" },
-  { id: 16, nombre: "Medias  ", precio: 159, imagen: "Img-Prod-Cal/.jpg" },
+  { id: 1, nombre: "Botas Casuales ", precio: 399, imagen: "Img-Prod-Cal/botascasuales.jpg" },
+  { id: 2, nombre: "Running Shield Mujer", precio: 659, imagen: "Img-Prod-Cal/runningultrashield.jpg" },
+  { id: 3, nombre: "Adidas Court Mujer ", precio: 59, imagen: "Img-Prod-Cal/adidasgrandcourtplataforma.jpg" },
+  { id: 4, nombre: "Running Terrex Mujer", precio: 159, imagen: "Img-Prod-Cal/trailrunningterrextrailrider.jpg" },
+  { id: 5, nombre: "Nike Air Force 1 H/M", precio: 159, imagen: "Img-Prod-Cal/airforce1.jpg" },
+  { id: 6, nombre: "Nike Full Forc Hombre", precio: 159, imagen: "Img-Prod-Cal/nikefullforc.jpg" },
+  { id: 7, nombre: "Adi2000 Hombre", precio: 159, imagen: "Img-Prod-Cal/adi2000hombre.jpg" },
+  { id: 8, nombre: "Puma Strunner V3Nl ", precio: 159, imagen: "Img-Prod-Cal/strunnerv3nl.jpg" },
+  { id: 9, nombre: "Rs-XGeek17080 Hombre", precio: 399, imagen: "Img-Prod-Cal/rs-xgeek17080.jpg" },
+  { id: 10, nombre: "Sandalias Ibiza blanco", precio: 659, imagen: "Img-Prod-Cal/sandaliasibizablanco.jpg" },
+  { id: 11, nombre: "Urbana Niño Spiderman", precio: 59, imagen: "Img-Prod-Cal/urbananiñospiderman.jpg" },
+  { id: 12, nombre: "Zapato de Vestir Cuero", precio: 159, imagen: "Img-Prod-Cal/zapatodevestir1vcs005.jpg" },
+  { id: 13, nombre: "Taco 12 Irisaba", precio: 159, imagen: "Img-Prod-Cal/taconesplataformataco12irisaba.jpg" },
+  { id: 14, nombre: "Pantuflas Poop", precio: 159, imagen: "Img-Prod-Cal/pantuflaspoop.jpg" },
+  { id: 15, nombre: "Sandalias Calimod Hombre", precio: 159, imagen: "Img-Prod-Cal/sandaliascalimodhombre.jpg" },
+  { id: 16, nombre: "Predator Elite FT-FG", precio: 159, imagen: "Img-Prod-Cal/predatoreliteftfg.jpg" },
 ];
 
 function ProdCalzado({ agregarAlCarrito }) {
@@ -28,7 +28,7 @@ function ProdCalzado({ agregarAlCarrito }) {
     if (filtroPrecio === "bajo") return productos.filter((prod) => prod.precio < 100);
     if (filtroPrecio === "medio") return productos.filter((prod) => prod.precio >= 100 && prod.precio <= 400);
     if (filtroPrecio === "alto") return productos.filter((prod) => prod.precio > 400);
-    return productos; // Todos
+    return productos;
   };
 
   const productosFiltrados = filtrarProductos();
