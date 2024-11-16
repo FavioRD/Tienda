@@ -53,7 +53,7 @@ function NavHeader({ carrito, eliminarDelCarrito }) {
             <Link to="/Promociones">Promociones</Link>
           </li>
           <li>
-            <Link to="/contacto">Contacto</Link>
+            <Link to="/Contacto">Contacto</Link>
           </li>
         </ul>
         <div
